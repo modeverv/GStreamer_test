@@ -1,19 +1,19 @@
-# Gstreamer���n��
-1.VirtualBox��Windows�ł͂��܂������Ȃ��B  
-2.Mac�����܂����B  
-3.Linux���{���n���ۂ����ǎ����Ă��Ȃ��B
-4.TeamViewer�o�R�ł�Win7�ł���Ȃ�Ɏg�����B
+# Gstreamer事始め
+1.VirtualBoxのWindowsではうまくいかない。  
+2.Macもいまいち。  
+3.Linuxが本拠地っぽいけど試していない。  
+4.TeamViewer経由でのWin7でそれなりに使えた。
 
-# ���ɂ����ɂȂ���
-�y�j�̂�邩������20���Ԃ��炢�i�������B  
-C�̕׋��͑S���ł��Ȃ������B�{��  
+# 死にそうになった
+土曜のよるからやって20時間ぐらい格闘した。  
+Cの勉強は全くできなかった。畜生  
 
-# ����
-�Ȃ�ƂȂ�gstreamer���킩���Ă����̂ł͂Ȃ��ł��傤���H
-�܂Ƃ߂��Ȃ�����ǁB
-���ۂ̃��A���ȗv�����ǂ�Ȃ��̂Ȃ̂��s���Ȃ̂ł�����Ƃ悭�킩��܂���ˁB
+# 成果
+なんとなくgstreamerがわかってきたのではないでしょうか？
+まとめられないけれど。
+実際のリアルな要求がどんなものなのか不明なのでちょっとよくわかりませんね。
 
-# �X�N���[���V���b�g�̎��ԉ����o
+# スクリーンショットの時間感覚
 
     powershell -Command "Measure-Command {.\ConsoleApplication2.exe}"
     Days              : 0
@@ -28,8 +28,8 @@ C�̕׋��͑S���ł��Ȃ������B�{��
     TotalSeconds      : 0.2447313
     TotalMilliseconds : 244.7313
 
-�܂����������Ęb�ɂȂ�Ȃ����x�ɂ͒x���B
-���̂�����A�����̎������ǂ������\���ɂȂ��Ă���̂��A�ǂ������H�v�����Ă���̂��m�肽���Ƃ���B
+まったくもって話にならない程度には遅い。
+このあたり、既存の実装がどういう構造になっているのか、どういう工夫をしているのか知りたいところ。
 
-# ���ۖ��
-�Ȃɂ�����̂��C�}�C�`�͂�������߂Ă��Ȃ��B
+# 実際問題
+なにをするのかイマイチはっきりつかめていない。
